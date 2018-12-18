@@ -1,0 +1,178 @@
+ body{
+ 	background-color:white; 
+ 	color:black;
+ 	font-family: Arial;
+ 	font-size: 16px;
+ 	line-height: 1.6em;
+ 	margin: 0;
+ 	border-radius: 0;
+ }
+
+ .container{
+ 	width: 80%;
+ 	margin: auto;
+ 	overflow: hidden;
+ 	border-radius: 0;
+
+ }
+
+ #main-header{
+ 	background-color: coral;
+ 	color: white ;
+ 	text-align: center;
+ 	border-radius: 0;
+ }
+
+ navbar{
+ 	background-color: green;
+ 	color: purple;
+ }
+
+ navbar ul{
+ 	padding: 0;
+ 	list-style: none;
+ 	border-radius: 0;
+ }
+
+ navbar li{
+ 	display: inline;
+ }
+
+ navbar a{
+ 	color: red;/*
+ 	text-decoration: none;*/
+ 	font-size: 18px;
+ 	padding-right: 15px; 
+ }
+
+ .button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 0;
+}
+
+.button:hover {
+  background-color: purple;
+}
+
+#sign-in{
+float: left;
+width: 30%;
+margin-bottom: 50px;
+border-radius: 0;
+}
+
+#sign-up{
+	float: left;
+	width: 30%;
+	border-radius: 0;
+}
+
+.forms{
+	color: black;
+	text-align:left;
+	border-radius: 0;
+}
+
+ #showcase{
+ 	background-image:url("../images/showcase.jpeg");
+ 	background-position: center-right;
+ 	min-height:90px;
+ 	margin-bottom: 30px;
+ 	text-align: center;
+ 	border-radius: 0;
+ }
+
+ #showcase h2{
+ 	color: blue;
+ 	font-size: 50;
+ 	line-height: 1.6em;
+ 	padding-top: 30px;
+ 	border-radius: 0;
+ }
+
+ #main{
+ 	float: left;
+ 	width: 60%;
+ 	padding: 0 30px;
+ 	background-color: grey;
+ 	text-decoration: none;
+ 	color: blue;
+ 	border-radius: 0;
+ }
+
+
+.redflagForm{
+	float:center;
+	border-radius: 0;
+}
+
+ #sidebar{
+ 	float: right;
+ 	width: 30%;
+ 	background-color:red;
+ 	color: black;
+ 	padding: 10px;
+ 	border-radius: 0;
+ }
+
+#footer{
+	background: black;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	margin-top: 50px;
+	border-radius: 0;
+
+}
+
+.dropdown {
+  background-color: grey;
+  color: purple;
+  padding: 12px;
+  font-size: 15px;
+  border: none;
+}
+
+.dropdownButton {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-list {
+  display: none;
+  position: absolute;
+  background-color: grey;
+  min-width: 90px;
+}
+
+.dropdown-list a:hover {background-color: cyan}
+.dropdownButton:hover .dropdown-list {display: block;}
+.dropdownButton:hover .dropdown {background-color: blue;}
+
+
+
+
+@media(max-width: 600px){
+	#main{
+		width: 100%;
+		float:none;
+	}
+
+	#sidebar{
+		width: 100%;
+		float:none;
+	}
+
+}
+.col-35 {
+	width: 35%;
+}
+.col-65 {
+	width: 65%;
+}
