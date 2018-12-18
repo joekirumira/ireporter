@@ -1,0 +1,66 @@
+<html>
+<head>
+	<title>redFlags and Interventions</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header id="main-header">
+		<div class="container">
+			<h1><strong>iReporter</strong ></h1>
+		</div>
+	</header>
+	<navbar id="main-navigate">
+		<div class="container">
+			<ul>
+				<li>
+					<a href="#">User Profile</a>
+				</li>
+				<li>
+					<a href="#">User Records</a>
+				</li>
+			</ul>
+			
+		</div>
+	</navbar>
+	<div class="container">
+		<form class="redflagForm" action="" method="post">
+			<div>
+				<label>Title</label><br>
+				<input type="text" name="email" placeholder="title">
+			</div><br>
+			<div>
+				<label>Details</label><br>
+				<textarea name="details"placeholder="Enter Details"></textarea>
+			</div>
+		<form>
+		<br>
+			<h4>Provide REDFLAG/INERVENION location</h4>
+			<form id="location">
+			    <table>
+			        <tr>
+			            <td>Enter Latitude:</td>
+			            <td>
+			                <input type="text" name="lat" value="" placeholder="Enter Latitude" />
+			            </td>
+			        </tr>
+			        <tr>
+			            <td>Enter Longitude:</td>
+			            <td>
+			                <input type="text" name="lng" value="" placeholder="Enter Longitude"/>
+			            </td>
+			        </tr>
+			    </table>
+		    	<div style="width:500px;height:380px;"></div>
+    	</form>
+    	<form action="upload_file.php" method="post"   enctype="multipart/form-data">
+	      <label for="file">Upload File:</label><br>
+	      <input type="file" name="file" id="file" />
+	      <br />
+	      <input type="submit" name="submit" value="Submit" />
+    	</form>
+	</div>
+
+
+
+</body>
+</html>
