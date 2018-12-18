@@ -16,6 +16,10 @@
 
  }
 
+ .container h3 {
+ 	text-align: center;
+ }
+
  #main-header{
  	background-color: coral;
  	color: white ;
