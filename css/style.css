@@ -9,7 +9,7 @@
  }
 
  .container{
- 	width: 80%;
+ 	width: 70%;
  	margin: auto;
  	overflow: hidden;
  	border-radius: 0;
@@ -64,6 +64,11 @@
   background-color: purple;
 }
 
+#signup-button{
+	background-color: grey;
+	width: 10%;
+}
+
 #sign-in{
 float: left;
 width: 30%;
@@ -92,17 +97,18 @@ border-radius: 0;
  	border-radius: 0;
  }
 
- #showcase h2{
- 	color: blue;
- 	font-size: 50;
+ #showcase h3{
+ 	color: orange;
+ 	font-size: 30;
  	line-height: 1.6em;
  	padding-top: 30px;
  	border-radius: 0;
+ 	width: 70%
  }
 
  #main{
  	float: left;
- 	width: 60%;
+ 	width: 70%;
  	padding: 0 30px;
  	background-color: grey;
  	text-decoration: none;

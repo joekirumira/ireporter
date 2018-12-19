@@ -13,16 +13,20 @@
 		<div class="container">
 			<ul>
 				<li>
-					<a href="#">User Profile</a>
+					<a href="userProfile.html">User Profile</a>
 				</li>
 				<li>
-					<a href="#">User Records</a>
+					<a href="userProfile.html">Delete Record</a>
+				</li>
+				<li>
+					<a href="index.html">Home</a>
 				</li>
 			</ul>
 			
 		</div>
 	</navbar>
 	<div class="container">
+		<div><h5>PLEASE REGISTER YOUR QUERY BELLOW</h5></div>
 		<form class="redflagForm" action="" method="post">
 			<div>
 				<label>Title</label><br>
@@ -38,7 +42,7 @@
 			</div>
 		<form>
 		<br>
-			<h4>Provide REDFLAG/INERVENION location</h4>
+			<h4>Provide RED FLAG OR INERVENION location</h4>
 			<form id="location">
 			    <table>
 			        <tr>
@@ -54,7 +58,6 @@
 			            </td>
 			        </tr>
 			    </table>
-		    	<div style="width:500px;height:380px;"></div>
     	</form>
     	<form action="upload_file.php" method="post"   enctype="multipart/form-data">
 	      <label for="file">Upload File:</label><br>
@@ -62,7 +65,21 @@
 	      <br />
 	      <input type="submit" name="submit" value="Submit" />
     	</form>
+    	<span><div><h5>SELECT QUERY TYPE</h5></div></span>
+    	<div >
+	       <select>        
+	            <option value="Red Flag">Red Flag</option>
+	            <option value="Intervention">Intervention</option>
+	       </select>
+	       <hr>
+	       <div class="button" id="signup-button">
+	  			<a href="userProfile.html">Submit</a>
+			</div>
+	    </div>      
 	</div>
+	<footer id="footer">
+		<p>Copyright &copy; 2018 iReporter </p>
+	</footer>
 
 
 
