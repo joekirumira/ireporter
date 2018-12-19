@@ -10,14 +10,14 @@ this is not a complete program and only includes the front-end interactions buy 
   python
   internet browser (most preferably Chrome)
   internet
-##files contained in the program
+#files contained in the program
   index.html
   singUp.html
   redFlagAndIntervention.html
   admin.html
   style.css
   images
-###how to access and improve irepoter.
+#how to access and improve irepoter.
 pull the repository onto your local machine with 'the git pull' command in order to access the code.
-###how to run ireporter
+#how to run ireporter
 open ireporter in a an internet enabled browser 
