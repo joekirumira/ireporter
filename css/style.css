@@ -1,5 +1,5 @@
  body{
- 	background-image:url("../images/background3.jpg");
+ 	background-image:url("../images/background2.jpg");
  	background-color:white; 
  	color:black;
  	font-family: Arial;
@@ -18,7 +18,7 @@
  }
 
  .container h3 {
- 	text-align: center;
+ 	text-align: left;
  }
 
  #main-header{
@@ -44,7 +44,7 @@
  }
 
  navbar a{
- 	color: black;/*
+ 	color: blue;/*
  	text-decoration: none;*/
  	font-size: 18px;
  	padding-right: 15px; 
@@ -98,8 +98,8 @@ border-radius: 0;
  	border-radius: 0;
  }
 
- #showcase h3{
- 	color: orange;
+ #showcase h1{
+ 	color: red;
  	font-size: 30;
  	line-height: 1.6em;
  	padding-top: 30px;
@@ -109,8 +109,8 @@ border-radius: 0;
 
  #main{
  	float: left;
- 	width: 60%;
- 	padding: 0 30px;
+ 	width: 100%;
+ 	padding: 0 10px;
  	background-color: grey;
  	text-decoration: none;
  	color: blue;
@@ -123,15 +123,6 @@ border-radius: 0;
 	border-radius: 0;
 }
 
- #sidebar{
- 	float: right;
- 	width: 30%;
- 	background-color:red;
- 	color: black;
- 	padding: 10px;
- 	border-radius: 0;
- }
-
 #footer{
 	background: black;
 	color: white;
@@ -140,6 +131,31 @@ border-radius: 0;
 	margin-top: 50px;
 	border-radius: 0;
 
+}
+
+table{
+	width: 400px;
+}
+
+th{
+	text-align: left;
+}
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}s
+
+th, td {
+	padding: 10px;
+}
+
+tr:nth-child(even) {
+	background-color: brown;
+}
+
+tr:nth-child(odd) {
+	background-color: grey;
 }
 
 .dropdown {
@@ -178,6 +194,11 @@ border-radius: 0;
 	#sidebar{
 		width: 100%;
 		float:none;
+	}
+
+	table{
+		width: 100%;
+		float: center;
 	}
 
 }
